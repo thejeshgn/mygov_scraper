@@ -1,0 +1,10 @@
+common:
+  database: "sqlite:///./mygov.sqlite"
+  prefix: export/
+  format: csv
+
+exports:
+
+  - query: "select id,page, username, date_time, comment,issue from comments order by page "
+    filename: "{{issue}}.csv"
+    format: csv
