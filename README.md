@@ -12,12 +12,15 @@ pip install -r requirements
 `
 
 ## To run ##
+
 `
 Open spider.py in a text editor and change the following values
-total_comments = 2433
-start_urls = 'https://mygov.in/group-issue/ministry-railway-invites-suggestions-public-regarding-forthcoming-railway-budget-2016-17/'
-issue = "ministry-railway-invites-suggestions-public-regarding-forthcoming-railway-budget-2016-17"
 
+total_comments = 2433
+
+start_urls = 'https://mygov.in/group-issue/ministry-railway-invites-suggestions-public-regarding-forthcoming-railway-budget-2016-17/'
+
+issue = "ministry-railway-invites-suggestions-public-regarding-forthcoming-railway-budget-2016-17"
 `
 
 and then
